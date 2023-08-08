@@ -1,0 +1,798 @@
+undefined-[object Object]- undefined
+2023-05-09T07:42:04.188Z-error- uncaughtException: Cannot find module 'cors'
+Require stack:
+- D:\learning\blog\back\src\app.ts
+Error: Cannot find module 'cors'
+Require stack:
+- D:\learning\blog\back\src\app.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\learning\blog\back\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:9:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+2023-05-09T07:42:40.592Z-error- uncaughtException: Cannot find module './common/corsRequest.js'
+Require stack:
+- D:\learning\blog\back\src\app.ts
+Error: Cannot find module './common/corsRequest.js'
+Require stack:
+- D:\learning\blog\back\src\app.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\learning\blog\back\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+2023-05-09T07:44:34.391Z-error- uncaughtException: Cannot find module './common/corsRequest.js'
+Require stack:
+- D:\learning\blog\back\src\app.ts
+Error: Cannot find module './common/corsRequest.js'
+Require stack:
+- D:\learning\blog\back\src\app.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\learning\blog\back\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+2023-05-09T07:44:58.781Z-error- uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/loginFilter.ts[0m:[93m1[0m:[93m22[0m - [91merror[0m[90m TS7006: [0mParameter 'app' implicitly has an 'any' type.
+
+[7m1[0m function loginFilter(app) {
+[7m [0m [91m                     ~~~[0m
+[96msrc/common/loginFilter.ts[0m:[93m2[0m:[93m20[0m - [91merror[0m[90m TS7006: [0mParameter 'req' implicitly has an 'any' type.
+
+[7m2[0m  app.use(function (req, res, next) {
+[7m [0m [91m                   ~~~[0m
+[96msrc/common/loginFilter.ts[0m:[93m2[0m:[93m25[0m - [91merror[0m[90m TS7006: [0mParameter 'res' implicitly has an 'any' type.
+
+[7m2[0m  app.use(function (req, res, next) {
+[7m [0m [91m                        ~~~[0m
+[96msrc/common/loginFilter.ts[0m:[93m2[0m:[93m30[0m - [91merror[0m[90m TS7006: [0mParameter 'next' implicitly has an 'any' type.
+
+[7m2[0m  app.use(function (req, res, next) {
+[7m [0m [91m                             ~~~~[0m
+[96msrc/common/loginFilter.ts[0m:[93m13[0m:[93m21[0m - [91merror[0m[90m TS7006: [0mParameter 'item' implicitly has an 'any' type.
+
+[7m13[0m      arr.findIndex((item) => {
+[7m  [0m [91m                    ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/loginFilter.ts[0m:[93m1[0m:[93m22[0m - [91merror[0m[90m TS7006: [0mParameter 'app' implicitly has an 'any' type.
+
+[7m1[0m function loginFilter(app) {
+[7m [0m [91m                     ~~~[0m
+[96msrc/common/loginFilter.ts[0m:[93m2[0m:[93m20[0m - [91merror[0m[90m TS7006: [0mParameter 'req' implicitly has an 'any' type.
+
+[7m2[0m  app.use(function (req, res, next) {
+[7m [0m [91m                   ~~~[0m
+[96msrc/common/loginFilter.ts[0m:[93m2[0m:[93m25[0m - [91merror[0m[90m TS7006: [0mParameter 'res' implicitly has an 'any' type.
+
+[7m2[0m  app.use(function (req, res, next) {
+[7m [0m [91m                        ~~~[0m
+[96msrc/common/loginFilter.ts[0m:[93m2[0m:[93m30[0m - [91merror[0m[90m TS7006: [0mParameter 'next' implicitly has an 'any' type.
+
+[7m2[0m  app.use(function (req, res, next) {
+[7m [0m [91m                             ~~~~[0m
+[96msrc/common/loginFilter.ts[0m:[93m13[0m:[93m21[0m - [91merror[0m[90m TS7006: [0mParameter 'item' implicitly has an 'any' type.
+
+[7m13[0m      arr.findIndex((item) => {
+[7m  [0m [91m                    ~~~~[0m
+
+    at createTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2023-05-09T07:45:18.512Z-error- uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/users.ts[0m:[93m5[0m:[93m28[0m - [91merror[0m[90m TS7006: [0mParameter 'req' implicitly has an 'any' type.
+
+[7m5[0m user.get('/user', function(req, res, next) {
+[7m [0m [91m                           ~~~[0m
+[96msrc/routes/users.ts[0m:[93m5[0m:[93m33[0m - [91merror[0m[90m TS7006: [0mParameter 'res' implicitly has an 'any' type.
+
+[7m5[0m user.get('/user', function(req, res, next) {
+[7m [0m [91m                                ~~~[0m
+[96msrc/routes/users.ts[0m:[93m5[0m:[93m38[0m - [91merror[0m[90m TS7006: [0mParameter 'next' implicitly has an 'any' type.
+
+[7m5[0m user.get('/user', function(req, res, next) {
+[7m [0m [91m                                     ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/users.ts[0m:[93m5[0m:[93m28[0m - [91merror[0m[90m TS7006: [0mParameter 'req' implicitly has an 'any' type.
+
+[7m5[0m user.get('/user', function(req, res, next) {
+[7m [0m [91m                           ~~~[0m
+[96msrc/routes/users.ts[0m:[93m5[0m:[93m33[0m - [91merror[0m[90m TS7006: [0mParameter 'res' implicitly has an 'any' type.
+
+[7m5[0m user.get('/user', function(req, res, next) {
+[7m [0m [91m                                ~~~[0m
+[96msrc/routes/users.ts[0m:[93m5[0m:[93m38[0m - [91merror[0m[90m TS7006: [0mParameter 'next' implicitly has an 'any' type.
+
+[7m5[0m user.get('/user', function(req, res, next) {
+[7m [0m [91m                                     ~~~~[0m
+
+    at createTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2023-05-09T08:28:24.429Z-error- uncaughtException: Cannot find module '../sql/db.js'
+Require stack:
+- D:\learning\blog\back\src\routes\users.ts
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+Error: Cannot find module '../sql/db.js'
+Require stack:
+- D:\learning\blog\back\src\routes\users.ts
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\learning\blog\back\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (D:\learning\blog\back\src\routes\users.ts:3:10)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+2023-05-09T08:28:33.326Z-error- uncaughtException: Cannot find module '../sql/db.js'
+Require stack:
+- D:\learning\blog\back\src\routes\users.ts
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+Error: Cannot find module '../sql/db.js'
+Require stack:
+- D:\learning\blog\back\src\routes\users.ts
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\learning\blog\back\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (D:\learning\blog\back\src\routes\users.ts:3:10)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+2023-05-09T08:29:05.040Z-error- uncaughtException: Cannot find module '../sql/db.js'
+Require stack:
+- D:\learning\blog\back\src\routes\users.ts
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+Error: Cannot find module '../sql/db.js'
+Require stack:
+- D:\learning\blog\back\src\routes\users.ts
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\learning\blog\back\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (D:\learning\blog\back\src\routes\users.ts:3:10)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+2023-05-09T08:29:34.726Z-error- uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/sql/db.ts[0m:[93m12[0m:[93m22[0m - [91merror[0m[90m TS2339: [0mProperty 'database' does not exist on type '{ host: string; user: string; password: string; datasourse: string; }'.
+
+[7m12[0m  let database=option.database ||null     //你的数据库名
+[7m  [0m [91m                     ~~~~~~~~[0m
+[96msrc/sql/db.ts[0m:[93m25[0m:[93m22[0m - [91merror[0m[90m TS7006: [0mParameter 'err' implicitly has an 'any' type.
+
+[7m25[0m  db.connect(function(err) {
+[7m  [0m [91m                     ~~~[0m
+[96msrc/sql/db.ts[0m:[93m33[0m:[93m16[0m - [91merror[0m[90m TS7006: [0mParameter 'error' implicitly has an 'any' type.
+
+[7m33[0m  db.query(sql,(error, results, fields)=>{
+[7m  [0m [91m               ~~~~~[0m
+[96msrc/sql/db.ts[0m:[93m33[0m:[93m23[0m - [91merror[0m[90m TS7006: [0mParameter 'results' implicitly has an 'any' type.
+
+[7m33[0m  db.query(sql,(error, results, fields)=>{
+[7m  [0m [91m                      ~~~~~~~[0m
+[96msrc/sql/db.ts[0m:[93m33[0m:[93m32[0m - [91merror[0m[90m TS7006: [0mParameter 'fields' implicitly has an 'any' type.
+
+[7m33[0m  db.query(sql,(error, results, fields)=>{
+[7m  [0m [91m                               ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/sql/db.ts[0m:[93m12[0m:[93m22[0m - [91merror[0m[90m TS2339: [0mProperty 'database' does not exist on type '{ host: string; user: string; password: string; datasourse: string; }'.
+
+[7m12[0m  let database=option.database ||null     //你的数据库名
+[7m  [0m [91m                     ~~~~~~~~[0m
+[96msrc/sql/db.ts[0m:[93m25[0m:[93m22[0m - [91merror[0m[90m TS7006: [0mParameter 'err' implicitly has an 'any' type.
+
+[7m25[0m  db.connect(function(err) {
+[7m  [0m [91m                     ~~~[0m
+[96msrc/sql/db.ts[0m:[93m33[0m:[93m16[0m - [91merror[0m[90m TS7006: [0mParameter 'error' implicitly has an 'any' type.
+
+[7m33[0m  db.query(sql,(error, results, fields)=>{
+[7m  [0m [91m               ~~~~~[0m
+[96msrc/sql/db.ts[0m:[93m33[0m:[93m23[0m - [91merror[0m[90m TS7006: [0mParameter 'results' implicitly has an 'any' type.
+
+[7m33[0m  db.query(sql,(error, results, fields)=>{
+[7m  [0m [91m                      ~~~~~~~[0m
+[96msrc/sql/db.ts[0m:[93m33[0m:[93m32[0m - [91merror[0m[90m TS7006: [0mParameter 'fields' implicitly has an 'any' type.
+
+[7m33[0m  db.query(sql,(error, results, fields)=>{
+[7m  [0m [91m                               ~~~~~~[0m
+
+    at createTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2023-05-09T08:29:54.553Z-error- uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/sql/db.ts[0m:[93m12[0m:[93m22[0m - [91merror[0m[90m TS2339: [0mProperty 'database' does not exist on type '{ host: string; user: string; password: string; datasourse: string; }'.
+
+[7m12[0m  let database=option.database ||null     //你的数据库名
+[7m  [0m [91m                     ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/sql/db.ts[0m:[93m12[0m:[93m22[0m - [91merror[0m[90m TS2339: [0mProperty 'database' does not exist on type '{ host: string; user: string; password: string; datasourse: string; }'.
+
+[7m12[0m  let database=option.database ||null     //你的数据库名
+[7m  [0m [91m                     ~~~~~~~~[0m
+
+    at createTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2023-05-09T08:30:18.288Z-error- uncaughtException: Cannot find module 'mysql'
+Require stack:
+- D:\learning\blog\back\src\sql\db.ts
+- D:\learning\blog\back\src\routes\users.ts
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+Error: Cannot find module 'mysql'
+Require stack:
+- D:\learning\blog\back\src\sql\db.ts
+- D:\learning\blog\back\src\routes\users.ts
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\learning\blog\back\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (D:\learning\blog\back\src\sql\db.ts:2:11)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+2023-05-09T08:30:35.831Z-error- uncaughtException: Cannot find module 'mysql'
+Require stack:
+- D:\learning\blog\back\src\sql\db.ts
+- D:\learning\blog\back\src\routes\users.ts
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+Error: Cannot find module 'mysql'
+Require stack:
+- D:\learning\blog\back\src\sql\db.ts
+- D:\learning\blog\back\src\routes\users.ts
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\learning\blog\back\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (D:\learning\blog\back\src\sql\db.ts:2:11)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+2023-06-14T07:11:52.894Z-error- uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/loginFilter.ts[0m:[93m3[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'rereq'. Did you mean 'req'?
+
+[7m3[0m     console.log(rereq.sessionq)
+[7m [0m [91m                ~~~~~[0m
+
+  [96msrc/common/loginFilter.ts[0m:[93m2[0m:[93m20[0m
+    [7m2[0m  app.use(function (req: { session: { auth_username: any; auth_password: any; }; signedCookies: { username: any; password: any; }; url: string; }, res: { status: (arg0: number) => { (): any; new(): any; json: { (arg0: { msg: string; }): any; new(): any; }; }; }, next: () => void) {
+    [7m [0m [96m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'req' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/loginFilter.ts[0m:[93m3[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'rereq'. Did you mean 'req'?
+
+[7m3[0m     console.log(rereq.sessionq)
+[7m [0m [91m                ~~~~~[0m
+
+  [96msrc/common/loginFilter.ts[0m:[93m2[0m:[93m20[0m
+    [7m2[0m  app.use(function (req: { session: { auth_username: any; auth_password: any; }; signedCookies: { username: any; password: any; }; url: string; }, res: { status: (arg0: number) => { (): any; new(): any; json: { (arg0: { msg: string; }): any; new(): any; }; }; }, next: () => void) {
+    [7m [0m [96m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'req' is declared here.
+
+    at createTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2023-06-14T07:12:30.448Z-error- 404 - Not Found - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:13:10.242Z-error- 500 - No default engine was specified and no extension was provided. - /api/index -GET - ::ffff:127.0.0.1
+2023-06-14T07:14:20.720Z-error- 404 - Not Found - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:14:50.294Z-error- 404 - Not Found - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:15:03.080Z-error- 500 - No default engine was specified and no extension was provided. - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:21:21.531Z-error- 404 - Not Found - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:21:53.791Z-error- 404 - Not Found - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:22:15.381Z-error- 404 - Not Found - /test -GET - ::ffff:127.0.0.1
+2023-06-14T07:22:18.879Z-error- 404 - Not Found - /test -GET - ::ffff:127.0.0.1
+2023-06-14T07:22:29.078Z-error- 404 - Not Found - /index/test -GET - ::ffff:127.0.0.1
+2023-06-14T07:22:33.138Z-error- 404 - Not Found - /index/test -GET - ::ffff:127.0.0.1
+2023-06-14T07:22:38.367Z-error- 404 - Not Found - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:22:55.384Z-error- 500 - No default engine was specified and no extension was provided. - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:23:54.147Z-error- 500 - No default engine was specified and no extension was provided. - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:28:57.531Z-error- 500 - Cannot find module 'ejs'
+Require stack:
+- D:\learning\blog\back\node_modules\express\lib\view.js
+- D:\learning\blog\back\node_modules\express\lib\application.js
+- D:\learning\blog\back\node_modules\express\lib\express.js
+- D:\learning\blog\back\node_modules\express\index.js
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:29:20.662Z-error- 500 - No default engine was specified and no extension was provided. - /index -GET - ::ffff:127.0.0.1
+2023-06-14T07:30:03.910Z-error- 500 - Cannot find module 'jade'
+Require stack:
+- D:\learning\blog\back\node_modules\express\lib\view.js
+- D:\learning\blog\back\node_modules\express\lib\application.js
+- D:\learning\blog\back\node_modules\express\lib\express.js
+- D:\learning\blog\back\node_modules\express\index.js
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts - /index -GET - ::ffff:127.0.0.1
+2023-07-05T02:46:59.492Z-error- 404 - Not Found - / -GET - ::ffff:127.0.0.1
+2023-07-05T02:47:00.392Z-error- 404 - Not Found - /favicon.ico -GET - ::ffff:127.0.0.1
+2023-07-05T05:18:03.608Z-error- 404 - Not Found - / -GET - ::1
+2023-07-05T05:18:04.326Z-error- 404 - Not Found - /favicon.ico -GET - ::1
+2023-07-05T05:18:14.105Z-error- 404 - Not Found - /user -GET - ::1
+2023-07-05T05:19:08.930Z-error- 404 - Not Found - / -GET - ::ffff:127.0.0.1
+2023-07-05T05:19:08.963Z-error- 404 - Not Found - / -GET - ::ffff:127.0.0.1
+2023-07-05T05:19:10.114Z-error- 404 - Not Found - /favicon.ico -GET - ::ffff:127.0.0.1
+2023-07-05T05:19:14.379Z-error- 404 - Not Found - / -GET - ::ffff:127.0.0.1
+2023-07-05T05:19:48.104Z-error- 404 - Not Found - /api/user/register -POST - ::ffff:127.0.0.1
+2023-07-05T05:21:19.561Z-error- 404 - Not Found - /user/regist -GET - ::1
+2023-07-05T05:21:36.918Z-error- 404 - Not Found - /user/register -GET - ::1
+2023-07-05T05:21:45.473Z-error- 404 - Not Found - /register -GET - ::1
+2023-07-05T05:21:56.886Z-error- 404 - Not Found - /user/register -GET - ::1
+2023-07-05T05:24:54.558Z-error- 404 - Not Found - / -GET - ::ffff:127.0.0.1
+2023-07-05T05:24:54.816Z-error- 404 - Not Found - / -GET - ::ffff:127.0.0.1
+2023-07-05T05:40:22.693Z-error- uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/users.ts[0m:[93m46[0m:[93m45[0m - [91merror[0m[90m TS7034: [0mVariable 'data' implicitly has type 'any' in some locations where its type cannot be determined.
+
+[7m46[0m     let username: string, password: string, data
+[7m  [0m [91m                                            ~~~~[0m
+[96msrc/routes/users.ts[0m:[93m72[0m:[93m68[0m - [91merror[0m[90m TS7005: [0mVariable 'data' implicitly has an 'any' type.
+
+[7m72[0m                   return res.send({ code: 200, msg: '注册成功，即可登录！！', data })
+[7m  [0m [91m                                                                   ~~~~[0m
+[96msrc/routes/users.ts[0m:[93m85[0m:[93m23[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ code: number; msg: string; }' is not assignable to parameter of type '{ code: number; msg: string; data: any; }'.
+  Property 'data' is missing in type '{ code: number; msg: string; }' but required in type '{ code: number; msg: string; data: any; }'.
+
+[7m85[0m       return res.send({
+[7m  [0m [91m                      ~[0m
+[7m86[0m         code: 500,
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~[0m
+[7m87[0m         msg: '请将信息填写完整！！',
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m88[0m       })
+[7m  [0m [91m~~~~~~~[0m
+
+  [96msrc/routes/users.ts[0m:[93m45[0m:[93m142[0m
+    [7m45[0m user.post('/register',function(req: { query: { userName: string; userPassword: string; }; },res: { send: (arg0: { code: number; msg: string; data: any }) => any; },next: any){
+    [7m  [0m [96m                                                                                                                                             ~~~~[0m
+    'data' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/users.ts[0m:[93m46[0m:[93m45[0m - [91merror[0m[90m TS7034: [0mVariable 'data' implicitly has type 'any' in some locations where its type cannot be determined.
+
+[7m46[0m     let username: string, password: string, data
+[7m  [0m [91m                                            ~~~~[0m
+[96msrc/routes/users.ts[0m:[93m72[0m:[93m68[0m - [91merror[0m[90m TS7005: [0mVariable 'data' implicitly has an 'any' type.
+
+[7m72[0m                   return res.send({ code: 200, msg: '注册成功，即可登录！！', data })
+[7m  [0m [91m                                                                   ~~~~[0m
+[96msrc/routes/users.ts[0m:[93m85[0m:[93m23[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ code: number; msg: string; }' is not assignable to parameter of type '{ code: number; msg: string; data: any; }'.
+  Property 'data' is missing in type '{ code: number; msg: string; }' but required in type '{ code: number; msg: string; data: any; }'.
+
+[7m85[0m       return res.send({
+[7m  [0m [91m                      ~[0m
+[7m86[0m         code: 500,
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~[0m
+[7m87[0m         msg: '请将信息填写完整！！',
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m88[0m       })
+[7m  [0m [91m~~~~~~~[0m
+
+  [96msrc/routes/users.ts[0m:[93m45[0m:[93m142[0m
+    [7m45[0m user.post('/register',function(req: { query: { userName: string; userPassword: string; }; },res: { send: (arg0: { code: number; msg: string; data: any }) => any; },next: any){
+    [7m  [0m [96m                                                                                                                                             ~~~~[0m
+    'data' is declared here.
+
+    at createTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2023-07-05T05:40:48.650Z-error- uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/users.ts[0m:[93m85[0m:[93m23[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ code: number; msg: string; }' is not assignable to parameter of type '{ code: number; msg: string; data: any; }'.
+  Property 'data' is missing in type '{ code: number; msg: string; }' but required in type '{ code: number; msg: string; data: any; }'.
+
+[7m85[0m       return res.send({
+[7m  [0m [91m                      ~[0m
+[7m86[0m         code: 500,
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~[0m
+[7m87[0m         msg: '请将信息填写完整！！',
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m88[0m       })
+[7m  [0m [91m~~~~~~~[0m
+
+  [96msrc/routes/users.ts[0m:[93m45[0m:[93m142[0m
+    [7m45[0m user.post('/register',function(req: { query: { userName: string; userPassword: string; }; },res: { send: (arg0: { code: number; msg: string; data: any }) => any; },next: any){
+    [7m  [0m [96m                                                                                                                                             ~~~~[0m
+    'data' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/users.ts[0m:[93m85[0m:[93m23[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ code: number; msg: string; }' is not assignable to parameter of type '{ code: number; msg: string; data: any; }'.
+  Property 'data' is missing in type '{ code: number; msg: string; }' but required in type '{ code: number; msg: string; data: any; }'.
+
+[7m85[0m       return res.send({
+[7m  [0m [91m                      ~[0m
+[7m86[0m         code: 500,
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~[0m
+[7m87[0m         msg: '请将信息填写完整！！',
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m88[0m       })
+[7m  [0m [91m~~~~~~~[0m
+
+  [96msrc/routes/users.ts[0m:[93m45[0m:[93m142[0m
+    [7m45[0m user.post('/register',function(req: { query: { userName: string; userPassword: string; }; },res: { send: (arg0: { code: number; msg: string; data: any }) => any; },next: any){
+    [7m  [0m [96m                                                                                                                                             ~~~~[0m
+    'data' is declared here.
+
+    at createTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2023-07-05T06:40:11.139Z-error- uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/users.ts[0m:[93m27[0m:[93m100[0m - [91merror[0m[90m TS2339: [0mProperty 'password' does not exist on type '{ userName: any; userPassword: any; }'.
+
+[7m27[0m     let bool=data.every((item: { userName: any; userPassword: any; })=>item.userName==name && item.password==userPassword);
+[7m  [0m [91m                                                                                                   ~~~~~~~~[0m
+[96msrc/routes/users.ts[0m:[93m27[0m:[93m110[0m - [91merror[0m[90m TS2552: [0mCannot find name 'userPassword'. Did you mean 'password'?
+
+[7m27[0m     let bool=data.every((item: { userName: any; userPassword: any; })=>item.userName==name && item.password==userPassword);
+[7m  [0m [91m                                                                                                             ~~~~~~~~~~~~[0m
+
+  [96msrc/routes/users.ts[0m:[93m7[0m:[93m20[0m
+    [7m7[0m  let name: string, password: string, data;
+    [7m [0m [96m                   ~~~~~~~~[0m
+    'password' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/users.ts[0m:[93m27[0m:[93m100[0m - [91merror[0m[90m TS2339: [0mProperty 'password' does not exist on type '{ userName: any; userPassword: any; }'.
+
+[7m27[0m     let bool=data.every((item: { userName: any; userPassword: any; })=>item.userName==name && item.password==userPassword);
+[7m  [0m [91m                                                                                                   ~~~~~~~~[0m
+[96msrc/routes/users.ts[0m:[93m27[0m:[93m110[0m - [91merror[0m[90m TS2552: [0mCannot find name 'userPassword'. Did you mean 'password'?
+
+[7m27[0m     let bool=data.every((item: { userName: any; userPassword: any; })=>item.userName==name && item.password==userPassword);
+[7m  [0m [91m                                                                                                             ~~~~~~~~~~~~[0m
+
+  [96msrc/routes/users.ts[0m:[93m7[0m:[93m20[0m
+    [7m7[0m  let name: string, password: string, data;
+    [7m [0m [96m                   ~~~~~~~~[0m
+    'password' is declared here.
+
+    at createTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2023-07-06T06:00:14.295Z-error- 404 - Not Found - /artical/getList?pageNum=1&pageSize=10 -GET - ::ffff:127.0.0.1
+2023-07-06T06:00:20.692Z-error- 404 - Not Found - /artical/getList?pageNum=1&pageSize=10 -GET - ::ffff:127.0.0.1
+2023-07-06T07:16:24.798Z-error- uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\learning\blog\back\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:46:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+2023-07-06T07:17:30.330Z-error- uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\learning\blog\back\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:46:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+2023-07-06T07:17:43.263Z-error- uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\learning\blog\back\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:46:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+2023-07-06T07:18:15.593Z-error- uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\learning\blog\back\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:46:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+2023-07-06T07:20:53.209Z-error- uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\learning\blog\back\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:46:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+2023-07-06T07:21:31.508Z-error- uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\learning\blog\back\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:46:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+2023-07-06T07:22:19.258Z-error- 500 - db.query is not a function - /artical/getList?pageNum=1&pageSize=10 -GET - ::ffff:127.0.0.1
+2023-07-06T07:22:43.960Z-error- uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/artical.ts[0m:[93m13[0m:[93m8[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m13[0m     db.(
+[7m  [0m [91m       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/artical.ts[0m:[93m13[0m:[93m8[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m13[0m     db.(
+[7m  [0m [91m       ~[0m
+
+    at createTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\learning\blog\back\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2023-07-06T07:22:53.150Z-error- uncaughtException: db.query is not a function
+TypeError: db.query is not a function
+    at D:\learning\blog\back\src\routes\artical.ts:27:14
+    at Query.<anonymous> (D:\learning\blog\back\src\sql\db.ts:39:5)
+    at Query.<anonymous> (D:\learning\blog\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (D:\learning\blog\back\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\learning\blog\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+2023-07-06T07:23:27.618Z-error- uncaughtException: callback is not a function
+TypeError: callback is not a function
+    at Query.<anonymous> (D:\learning\blog\back\src\sql\db.ts:39:5)
+    at Query.<anonymous> (D:\learning\blog\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (D:\learning\blog\back\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\learning\blog\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\learning\blog\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-07-07T06:10:27.167Z-error- 404 - Not Found - / -GET - ::1
+2023-07-07T06:10:28.137Z-error- 404 - Not Found - /favicon.ico -GET - ::1
+2023-07-07T06:11:03.187Z-error- 404 - Not Found - /images -GET - ::1
+2023-07-07T06:11:15.149Z-error- 404 - Not Found - /public -GET - ::1
+2023-07-07T06:17:44.275Z-error- 404 - Not Found - /artical/upload -POST - ::1
+2023-07-07T06:17:54.435Z-error- 404 - Not Found - /artical/upload-image -POST - ::1
+2023-07-07T06:52:48.251Z-error- uncaughtException: Cannot find module 'express-fileupload'
+Require stack:
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+Error: Cannot find module 'express-fileupload'
+Require stack:
+- D:\learning\blog\back\src\app.ts
+- D:\learning\blog\back\bin\www.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\learning\blog\back\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:56:20)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+2023-07-10T03:12:54.374Z-error- 404 - Not Found - /Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:12:55.349Z-error- 404 - Not Found - /favicon.ico -GET - ::1
+2023-07-10T03:13:29.606Z-error- 404 - Not Found - /Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:15:42.346Z-error- 404 - Not Found - /Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:16:00.759Z-error- uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\learning\blog\back\src\routes\artical.ts:86:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:15:21)
+2023-07-10T03:17:01.276Z-error- 404 - Not Found - /Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:23:18.342Z-error- 404 - Not Found - /Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:24:34.240Z-error- 404 - Not Found - /Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:27:02.588Z-error- 404 - Not Found - /%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230404160958.jpg -GET - ::1
+2023-07-10T03:28:56.034Z-error- 404 - Not Found - / -GET - ::1
+2023-07-10T03:29:08.828Z-error- 404 - Not Found - /Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:33:02.124Z-error- 404 - Not Found - /Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:36:47.876Z-error- 404 - Not Found - /Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:37:12.194Z-error- 404 - Not Found - /Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:37:20.678Z-error- 404 - Not Found - /assets/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:38:35.799Z-error- 404 - Not Found - /assets/images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:40:38.413Z-error- 404 - Not Found - /assets/images -GET - ::1
+2023-07-10T03:40:51.395Z-error- 404 - Not Found - /assets/images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:41:59.538Z-error- 404 - Not Found - /assets/images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:42:03.806Z-error- 404 - Not Found - /assets/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:42:12.596Z-error- 404 - Not Found - /assets/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:42:17.654Z-error- 404 - Not Found - /assets/images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:42:18.615Z-error- 404 - Not Found - /assets/images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:43:17.680Z-error- 404 - Not Found - /images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:45:49.123Z-error- 404 - Not Found - /images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:45:56.008Z-error- 404 - Not Found - /public/images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:46:17.774Z-error- 404 - Not Found - /public/images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:47:12.511Z-error- 404 - Not Found - /public/images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:48:16.057Z-error- 404 - Not Found - /public/images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:48:36.287Z-error- 404 - Not Found - /images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:49:28.401Z-error- 404 - Not Found - /images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:49:44.192Z-error- 404 - Not Found - /images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:49:58.222Z-error- 404 - Not Found - /public/images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T03:50:20.595Z-error- 404 - Not Found - /images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T06:26:27.105Z-error- 404 - Not Found - /images/Cesium_Logo_overlay.png -GET - ::1
+2023-07-10T06:40:58.083Z-error- uncaughtException: res.send is not a function
+TypeError: res.send is not a function
+    at D:\learning\blog\back\src\routes\artical.ts:79:28
+    at Query.<anonymous> (D:\learning\blog\back\src\sql\db.ts:39:5)
+    at Query.<anonymous> (D:\learning\blog\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (D:\learning\blog\back\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.OkPacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Query.js:74:10)
+    at Protocol._parsePacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\learning\blog\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+2023-07-10T08:33:39.022Z-error- uncaughtException: res.send is not a function
+TypeError: res.send is not a function
+    at D:\learning\blog\back\src\routes\artical.ts:67:13
+    at Query.<anonymous> (D:\learning\blog\back\src\sql\db.ts:39:5)
+    at Query.<anonymous> (D:\learning\blog\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (D:\learning\blog\back\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\learning\blog\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\learning\blog\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+2023-07-10T09:56:55.709Z-error- 404 - Not Found - /getAllCategoryList -GET - ::ffff:127.0.0.1
+2023-07-10T09:57:40.291Z-error- uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\learning\blog\back\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:53:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+2023-07-10T09:58:05.190Z-error- uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\learning\blog\back\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\learning\blog\back\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\learning\blog\back\src\app.ts:53:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module.m._compile (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\learning\blog\back\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+2023-07-10T10:00:56.035Z-error- 404 - Not Found - /getAllCategoryList -GET - ::ffff:127.0.0.1
+2023-07-11T06:05:52.842Z-error- 404 - Not Found - /artical/deleteArtical/20 -DELETE - ::ffff:127.0.0.1
+2023-07-11T06:06:56.176Z-error- 404 - Not Found - /artical/deleteArtical/20 -DELETE - ::ffff:127.0.0.1
+2023-07-11T06:07:20.964Z-error- 404 - Not Found - /artical/deleteArtical/20 -DELETE - ::ffff:127.0.0.1
+2023-07-11T06:10:04.013Z-error- 404 - Not Found - /artical/deleteArtical/20 -DELETE - ::ffff:127.0.0.1
+2023-07-11T06:10:25.806Z-error- 404 - Not Found - /artical/deleteArtical/20 -DELETE - ::ffff:127.0.0.1
+2023-07-11T06:11:14.213Z-error- 404 - Not Found - /artical/deleteArtical/20 -DELETE - ::ffff:127.0.0.1
+2023-07-11T06:11:42.812Z-error- 404 - Not Found - /artical/deleteArtical/20 -DELETE - ::ffff:127.0.0.1
+2023-07-11T06:24:39.632Z-error- 404 - Not Found - /artical/updateArtical -PUT - ::ffff:127.0.0.1
+2023-07-11T07:32:49.480Z-error- 404 - Not Found - /category/createCategory?categoryId=-1&categoryDesc=111&categoryName=111 -GET - ::ffff:127.0.0.1

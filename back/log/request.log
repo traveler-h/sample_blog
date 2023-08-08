@@ -1,0 +1,2 @@
+::ffff:127.0.0.1 - - [27/Apr/2023:09:23:40 +0000] "GET /user HTTP/1.1" 401 37 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [27/Apr/2023:09:35:11 +0000] "GET /user HTTP/1.1" 401 37 "http://127.0.0.1:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"

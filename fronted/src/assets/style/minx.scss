@@ -1,0 +1,6 @@
+$default-color: #fff;
+@mixin flex-middle() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
